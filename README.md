@@ -32,11 +32,11 @@ This notebook trains a phytoplankton image classifier using both a simple CNN an
 
 ### `miniPhytoCNN-test.ipynb`
 
-This notebook demonstrates how to use the trained miniPhytoCNN model on images requested directly from the IFCB dashboard. It loads model weights, computes accuracy and classification metrics, and generates a confusion matrix. Outputs include prediction CSVs and performance plots.
+This notebook demonstrates how to use the trained miniPhytoCNN model on images requested directly from the IFCB dashboard. It loads model weights and classifies individual images downloaded from the dashboard.
 
 ⸻
 
-### `miniPhytoCNN-test-roi.ipynb`
+### `miniPhytoCNN-inference-roi.ipynb`
 
 This notebook uses the [`pyIFCB`](https://github.com/joefutrelle/pyifcb/tree/master) to directly run inference on images collected in `.roi` files mounted on the OOI/ JupyterHub server/ Predictions are saved alongside ROI indices to facilitate downstream analysis. It’s intended for use on new data streams not included in the training set.
 

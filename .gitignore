@@ -1,4 +1,4 @@
-training/*
+notebooks/training/*
 *.pth
 *.zip
 deep_features/*
