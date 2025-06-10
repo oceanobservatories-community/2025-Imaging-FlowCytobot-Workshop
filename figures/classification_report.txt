@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+    Akashiwo       0.99      1.00      0.99        76
+    Ceratium       1.00      0.97      0.99        80
+  Dinophysis       0.99      0.98      0.98        85
+    Eucampia       0.97      0.97      0.97        67
+      Laboea       0.99      1.00      0.99        83
+Prorocentrum       0.99      1.00      0.99        90
+
+    accuracy                           0.99       481
+   macro avg       0.99      0.99      0.99       481
+weighted avg       0.99      0.99      0.99       481

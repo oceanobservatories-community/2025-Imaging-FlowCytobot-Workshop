@@ -1,3 +1,5 @@
 training/*
 *.pth
 *.zip
+deep_features/*
+test-images/*.png
